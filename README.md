@@ -1,7 +1,7 @@
 # mendeley-utils-py
-Utilities for simplifying the use of the Python Mendeley API
+Utilities for simplifying the use of the Python [Mendeley API](https://github.com/Mendeley/mendeley-python-sdk).
 
-## Example
+### Example
 ```python
 import yaml
 from mendeley_utils import MendeleyHelper
@@ -20,3 +20,6 @@ if __name__ == '__main__':
     documents = session.documents
 
 ```
+
+### Notes
+Tested using Python 3.8.
